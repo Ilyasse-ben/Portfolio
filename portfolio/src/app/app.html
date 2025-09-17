@@ -1,12 +1,45 @@
-<nav class="flex justify-around fixed top-0 left-0 w-full bg-black/70 text-white px-10 py-4 shadow-lg z-50">
-  <h1 class="text-xl text-white py-3">Ilyasse</h1>
-  <ul class="flex justify-around gap-8 text-white py-3">
-    <li>Home</li>
-    <li>Education</li>
-    <li>Expirence</li>
-    <li>Skilse</li>
-    <li>Project</li>
-    <li>Contucte</li>
+<nav class="flex justify-between fixed top-0 left-0 w-full bg-[#1f2937e7] text-white px-10 py-4 shadow-lg z-50">
+  <div class="flex flex-col">
+    <h2 class="text-2xl font-bold text-green-500 px-4 py-2">Ilyasse</h2>
+  </div>
+  
+  <ul class="flex gap-8 px-4 py-2">
+    <li class="text-white hover:text-green-500 transition duration-300 ease-in-out hover:border-b-2 hover:border-green-500 ">Home</li>
+    <li class="text-white hover:text-green-500 transition duration-300 ease-in-out hover:border-b-2 hover:border-green-500">Education</li>
+    <li class="text-white hover:text-green-500 transition duration-300 ease-in-out hover:border-b-2 hover:border-green-500">Expirence</li>
+    <li class="text-white hover:text-green-500 transition duration-300 ease-in-out hover:border-b-2 hover:border-green-500">Skilse</li>
+    <li class="text-white hover:text-green-500 transition duration-300 ease-in-out hover:border-b-2 hover:border-green-500">Project</li>
+    <li class="text-white hover:text-green-500 transition duration-300 ease-in-out hover:border-b-2 hover:border-green-500">Contucte</li>
   </ul>
 </nav>
+<div>
+  <div id="Home" class="min-h-[100vh] flex flex-wrap justify-around items-center px-8 mt-28 lg:mt-0">
+  <!-- Texte -->
+  <div class="max-w-lg text-center md:text-left space-y-4 mb-5">
+    <h1 class="text-5xl font-bold text-white leading-tight">
+      Software Engineering Student
+    </h1>
+    <p class="text-xl text-white">Hi there 👋!</p>
+    <p class="text-white">
+      My name is <span class="font-bold">Ilyasse Bentaleb</span>.  
+      I am a software engineer at ENSET with a strong interest in 
+      <span class="font-medium">Java</span>, 
+      <span class="font-medium">web development</span>, 
+      and <span class="font-medium">data analysis</span>.
+    </p>
+    <div class="mt-6 flex gap-4 justify-center md:justify-start">
+      
+      <a href="#Contact" class="px-5 py-2 border border-green-500 text-green-500 rounded-lg hover:bg-green-500/40 transition">
+        Contact Me
+      </a>
+    </div>
+  </div>
+
+  <!-- Image -->
+  <div class="mt-8 md:mt-0">
+    <img src="photo.jpg" alt="Ilyasse Bentaleb" class="h-80 md:h-96 rounded-2xl shadow-lg object-cover">
+  </div>
+</div>
+
+</div>
 <router-outlet />
