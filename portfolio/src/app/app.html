@@ -7,11 +7,13 @@
     <a href="#Home"><li class="text-white hover:text-green-500 transition duration-300 ease-in-out hover:border-b-2 hover:border-green-500 ">Home</li></a>
     <a href="#Projet"><li class="text-white hover:text-green-500 transition duration-300 ease-in-out hover:border-b-2 hover:border-green-500">Project</li></a>
     <a href="#Exprennsse"><li class="text-white hover:text-green-500 transition duration-300 ease-in-out hover:border-b-2 hover:border-green-500">Expirence</li></a>
-    <li class="text-white hover:text-green-500 transition duration-300 ease-in-out hover:border-b-2 hover:border-green-500">Education</li>
     <li class="text-white hover:text-green-500 transition duration-300 ease-in-out hover:border-b-2 hover:border-green-500">Skilse</li>
     <li class="text-white hover:text-green-500 transition duration-300 ease-in-out hover:border-b-2 hover:border-green-500">Contucte</li>
   </ul>
 </nav>
+
+<!-- homme page -->
+
 <div>
   <div id="Home" class="min-h-[100vh] flex flex-wrap justify-around items-center px-8 mt-28 lg:mt-0">
   <!-- Texte -->
@@ -27,8 +29,7 @@
       applications, exploring new technologies, and continuously improving 
       my skills to solve real-world problems.
     </p>
-    <div class="mt-6 flex gap-4 justify-center md:justify-start">
-      
+    <div class="mt-6 flex gap-4 justify-center md:justify-start"> 
       <a href="#Contact" class="px-5 py-2 border border-green-500 text-green-500 rounded-lg hover:bg-green-500/40 transition">
         Contact Me
       </a>
@@ -43,6 +44,9 @@
 <div id="title">
   <h3 class="text-5xl font-bold text-green-500 text-center mb-20 "><span class="border-b-2">Mes project</span></h3>
 </div>
+
+<!-- Projet page -->
+
 <div id="Projet" class="w-[90%] max-w-[1100px] my-[30px] mx-auto grid gap-5 [grid-template-columns:repeat(auto-fill,minmax(280px,1fr))]">
     <div class="bg-[#1f2937e7] p-2 hover:shadow-lg hover:shadow-green-500/50 hover:translate-y-[-5px] transition duration-700 ease-in-out">
       <img src="photo.png" alt="" class="">
@@ -85,6 +89,9 @@
 <div id="title">
   <h3 class="text-5xl font-bold text-green-500 text-center mb-20 "><span class="border-b-2">Mes Exprennsse</span></h3>
 </div>
+
+<!-- Projet page -->
+
 <div id="Exprennsse" class="relative container mx-auto px-6">
   <!-- Ligne centrale -->
   <div class="absolute w-1 bg-green-400 h-full left-1/2 transform -translate-x-1/2"></div>
@@ -119,8 +126,62 @@
     </div>
   </div>
 </div>
-  <h3 class="text-5xl font-bold text-green-500 text-center mb-20 "><span class="border-b-2">Mes Education</span></h3>
-
-
-
+<div>
+  <h3 class="text-5xl font-bold text-green-500 text-center mb-20 "><span class="border-b-2">Mes Skilse</span></h3>
+</div>
+<!-- skile page -->
+<div id="skils" class="w-[90%] max-w-[1100px] my-[30px] mx-auto min-h[100vh]">
+<div class="grid gap-5 [grid-template-columns:repeat(auto-fill,minmax(280px,1fr))]">
+  <button class="border-green-500 px-6 py-2 rounded-[5px] bg-green-500/50 hover:bg-green-500/50" (click)="afficheDiv(div1,div2,div3)">Web Development</button>
+  <button class="border-green-500 border-1 rounded-[5px] px-6 py-2 font-bold hover:bg-green-500/50" (click)="afficheDiv(div2,div1,div3)">Data Bases</button>
+  <button class="border-green-500 border-1 rounded-[5px] px-6 py-2 hover:bg-green-500/50">Languages / Intrests / Others</button>
+</div>
+<div class="mt-4 grid gap-5 [grid-template-columns:repeat(auto-fill,minmax(150px,1fr))]  bg-[#1f2937e7]"  #div1>
+ <button class="p-3">ok </button>
+ <button class="p-3">ok </button>
+ <button class="p-3">ok </button>
+ <button class="p-3">ok </button>
+ <button class="p-3">ok </button>
+ <button class="p-3">ok </button>
+ <button class="p-3">ok </button>
+</div>
+<div class="mt-4 grid gap-5 [grid-template-columns:repeat(auto-fill,minmax(150px,1fr))]  bg-[#1f2937e7]" hidden #div2>
+ <button class="p-3">ok </button>
+ <button class="p-3">ok </button>
+ <button class="p-3">ok </button>
+ <button class="p-3">ok </button>
+ <button class="p-3">ok </button>
+ <button class="p-3">ok </button>
+ <button class="p-3">ok </button>
+</div>
+<div class="mt-4 grid gap-5 [grid-template-columns:repeat(auto-fill,minmax(150px,1fr))]  bg-[#1f2937e7] " hidden #div3>
+ <button class="p-3">ok </button>
+ <button class="p-3">ok </button>
+ <button class="p-3">ok </button>
+ <button class="p-3">ok </button>
+ <button class="p-3">ok </button>
+ <button class="p-3">ok </button>
+ <button class="p-3">ok </button>
+</div>
+</div>
+<div>
+  <h3 class="text-5xl font-bold text-green-500 text-center mb-20 "><span class="border-b-2">Mes Skilse</span></h3>
+</div>
+<!-- contuct page -->
+<div class="w-90% max-w-[1100px] flex justify-around md:flex-wrap mx-auto gap-5">
+  <div class="max-w-lg font-bold items-center my-auto">
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+     Dicta laborum ex unde quis laboriosam cum numquam praesentium, 
+    explicabo, reprehenderit nulla architecto eum adipisci. Repellat 
+    excepturi perspiciatis, consectetur unde omnis earum.</p>
+  </div>
+  <div class="flex flex-col w-full gap-3">
+    <label for="name" class="text-gray-300"> Name:</label>
+    <input name="name" type="text" placeholder="your name" class="border-2 px-4 py-2 rounded-[6px]">
+    <label for="email">Email:</label>
+    <input name="email" type="email" placeholder="your email" class="border-2 px-4 py-2 rounded-[6px]">
+    <label for="mesage">Message</label>
+    <textarea name="mesage" id="" placeholder="your messag" class="border-2 px-4 py-2 rounded-[6px]"></textarea>
+  </div>
+</div>
 <router-outlet />
