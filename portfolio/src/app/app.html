@@ -42,7 +42,7 @@
   </div>
 </div>
 <div id="title">
-  <h3 class="text-5xl font-bold text-green-500 text-center mb-20 "><span class="border-b-2">Mes project</span></h3>
+  <h3 class="text-5xl font-bold text-green-500 text-center mb-20 mt-32 "><span class="border-b-2">Mes project</span></h3>
 </div>
 
 <!-- Projet page -->
@@ -87,7 +87,7 @@
     
 </div>
 <div id="title">
-  <h3 class="text-5xl font-bold text-green-500 text-center mb-20 "><span class="border-b-2">Mes Exprennsse</span></h3>
+  <h3 class="text-5xl font-bold text-green-500 text-center mb-20 mt-32"><span class="border-b-2">Mes Exprennsse</span></h3>
 </div>
 
 <!-- Projet page -->
@@ -127,7 +127,7 @@
   </div>
 </div>
 <div>
-  <h3 class="text-5xl font-bold text-green-500 text-center mb-20 "><span class="border-b-2">Mes Skilse</span></h3>
+  <h3 class="text-5xl font-bold text-green-500 text-center mb-20 mt-32"><span class="border-b-2">Mes Skilse</span></h3>
 </div>
 <!-- skile page -->
 <div id="skils" class="w-[90%] max-w-[1100px] my-[30px] mx-auto min-h[100vh]">
@@ -136,23 +136,22 @@
   <button class="border-green-500 border-1 rounded-[5px] px-6 py-2 font-bold hover:bg-green-500/50" (click)="afficheDiv(div2,div1,div3)">Data Bases</button>
   <button class="border-green-500 border-1 rounded-[5px] px-6 py-2 hover:bg-green-500/50">Languages / Intrests / Others</button>
 </div>
-<div class="mt-4 grid gap-5 [grid-template-columns:repeat(auto-fill,minmax(150px,1fr))]  bg-[#1f2937e7]"  #div1>
- <button class="p-3">ok </button>
- <button class="p-3">ok </button>
- <button class="p-3">ok </button>
- <button class="p-3">ok </button>
- <button class="p-3">ok </button>
- <button class="p-3">ok </button>
- <button class="p-3">ok </button>
+<div class="mt-4 grid gap-5 [grid-template-columns:repeat(auto-fill,minmax(150px,1fr))] p-3 bg-[#1f2937e7]"  #div1>
+ <img src="logo/nodejs.svg" class="p-3 w-16 h-16" alt="auune chose">
+ <img src="logo/expressjs.svg" class="p-3 w-16 h-16" alt="auune chose">
+ <img src="logo/php-6.svg" class="p-3 w-16 h-16" alt="auune chose">
+ <img src="logo/laravel-2.svg" class="p-3 w-16 h-16" alt="auune chose">
+ <img src="logo/javascript-1.svg" class="p-3 w-16 h-16" alt="auune chose">
+ <img src="logo/angular-icon-1.svg" class="p-3 w-16 h-16" alt="auune chose">
+ <img src="logo/css-3.svg" class="p-3 w-16 h-16" alt="auune chose">
+ <img src="logo/bootstrap-1.svg" class="p-3 w-16 h-16" alt="auune chose">
+ <img src="logo/tailwind-css-2.svg" class="p-3 w-16 h-16" alt="auune chose">
+ <img src="logo/html-1.svg" class="p-3 w-16 h-16" alt="auune chose">
 </div>
 <div class="mt-4 grid gap-5 [grid-template-columns:repeat(auto-fill,minmax(150px,1fr))]  bg-[#1f2937e7]" hidden #div2>
- <button class="p-3">ok </button>
- <button class="p-3">ok </button>
- <button class="p-3">ok </button>
- <button class="p-3">ok </button>
- <button class="p-3">ok </button>
- <button class="p-3">ok </button>
- <button class="p-3">ok </button>
+ <img src="logo/mysql-3.svg" class="p-3 w-16 h-16" alt="auune chose">
+ <img src="logo/mongodb-icon-1.svg" class="p-3 w-16 h-16" alt="auune chose">
+ <img src="logo/sqlite.svg" class="p-3 w-16 h-16" alt="auune chose">
 </div>
 <div class="mt-4 grid gap-5 [grid-template-columns:repeat(auto-fill,minmax(150px,1fr))]  bg-[#1f2937e7] " hidden #div3>
  <button class="p-3">ok </button>
@@ -165,11 +164,11 @@
 </div>
 </div>
 <div>
-  <h3 class="text-5xl font-bold text-green-500 text-center mb-20 "><span class="border-b-2">Mes Skilse</span></h3>
+  <h3 class="text-5xl font-bold text-green-500 text-center mb-20 mt-32"><span class="border-b-2">Mes Contacts</span></h3>
 </div>
 <!-- contuct page -->
 <div class="w-90% max-w-[1100px] flex justify-around md:flex-wrap mx-auto gap-5">
-  <div class="max-w-lg font-bold items-center my-auto">
+  <div class=" font-bold items-center my-5">
     <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.
      Dicta laborum ex unde quis laboriosam cum numquam praesentium, 
     explicabo, reprehenderit nulla architecto eum adipisci. Repellat 
@@ -182,6 +181,10 @@
     <input name="email" type="email" placeholder="your email" class="border-2 px-4 py-2 rounded-[6px]">
     <label for="mesage">Message</label>
     <textarea name="mesage" id="" placeholder="your messag" class="border-2 px-4 py-2 rounded-[6px]"></textarea>
+    <input type="submit" value="send" class="p-2 bg-green-400 w-28 rounded-xl font-bold hover:bg-green-500">
   </div>
 </div>
+  <footer class="bg-black mt-10">
+    <p class="  text-center font-bold p-3">Ilyasse BEN TALEB</p>
+  </footer>
 <router-outlet />
