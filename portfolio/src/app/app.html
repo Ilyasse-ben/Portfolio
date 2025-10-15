@@ -15,7 +15,7 @@
 <!-- homme page -->
 
 <div>
-  <div id="Home" class="min-h-[100vh] flex flex-wrap justify-around items-center px-8 mt-28 lg:mt-0">
+  <div id="Home" class="min-h-[100vh] flex flex-wrap justify-around items-center px-8 mt-28 lg:mt-0 duration-1000 ease-in">
   <!-- Texte -->
   <div class="max-w-lg text-center md:text-left space-y-4 mb-5">
     <h1 class="text-5xl font-bold text-white leading-tight">
@@ -23,7 +23,7 @@
     </h1>
     <p class="text-xl text-white">Hi there 👋!</p>
     <p class="text-white">
-      My name is Ilyasse Bentaleb. I am a software 
+      My name is Ilyasse BEN TALEB. I am a software 
       engineer with a strong interest in Java, web development, 
       and data analysis. I enjoy building efficient and user-friendly 
       applications, exploring new technologies, and continuously improving 
@@ -51,12 +51,12 @@
   </div>
 </div>
 <div id="title">
-  <h3 class="text-5xl font-bold text-green-500 text-center mb-20 mt-32 "><span class="border-b-2">Mes project</span></h3>
+  <h3 id="Projet" class="text-5xl font-bold text-green-500 text-center mb-20 mt-32 "><span class="border-b-2">Mes project</span></h3>
 </div>
 
 <!-- Projet page -->
 
-<div id="Projet" class="w-[90%] max-w-[1100px] my-[30px] mx-auto grid gap-5 [grid-template-columns:repeat(auto-fill,minmax(280px,1fr))]">
+<div  class="w-[90%] max-w-[1100px] my-[30px] mx-auto grid gap-5 [grid-template-columns:repeat(auto-fill,minmax(280px,1fr))]">
     <div class="bg-[#1f2937e7] p-2 hover:shadow-lg hover:shadow-green-500/50 hover:translate-y-[-5px] transition duration-700 ease-in-out">
       <img src="pro1.png" alt="" class="">
       <div class="flex justify-between">
@@ -65,9 +65,9 @@
       </div>
       
       <p class="my-2 font-bold"> 
-        Projet de site web type blog utilisant le web scraping pour c
-        ollecter et analyser les données de la CAN 2025, offrant des informations 
-        *fiables et accessibles aux utilisateurs.
+        A blog-style website project using web scraping to collect and analyze 
+        data from the 2025 Africa Cup of Nations (CAN), providing reliable and 
+        accessible information to users.
       </p>
       
     </div>
@@ -79,7 +79,7 @@
       </div>
       
       <p class="my-2 font-bold"> 
-        Dans ce projet, nous développons un site web  pour le centre de cours Setun Smart School.
+        In this project, we developed a website for the Setun Smart School learning center.     
       </p>
       
     </div>
@@ -91,19 +91,44 @@
       </div>
       
       <p class="my-2 font-bold"> 
-        Dans ce projet, nous développons une application web dédiée à la gestion des clubs au sein de l’ENSET Mohammedia.
+        In this project, we developed a web application dedicated to managing clubs at ENSET Mohammedia.
       </p>
       
     </div>
     
 </div>
 <div id="title">
-  <h3 class="text-5xl font-bold text-green-500 text-center mb-20 mt-32"><span class="border-b-2">Mes Exprennsse</span></h3>
+  <h3 id="Exprennsse" class="text-5xl font-bold text-green-500 text-center mb-20 mt-32"><span class="border-b-2">Mes Exprennsse</span></h3>
 </div>
+<!-- Exprennsse page mobile -->
+<!-- Item gauche -->
+  <div class="mb-12  w-full">
+    <div class="w-[90%] bg-[#1f2937e7] shadow-lg rounded-lg p-6 mx-auto lg:hidden">
+      <h3 class="text-lg font-bold">Software Engineer </h3>
+      <p class="text-sm text-gray-100">DesCustoms Marketing Agency</p>
+      <p class="text-sm text-gray-400">Jul 2025 – Aug 2025 · 2 mos</p>
+      <ul class="mt-3 text-gray-200 list-disc list-inside space-y-1">
+        <li>Developed a web application with integrated data analysis and visualization features.</li>
+        <li><span class="font-semibold">Tools:</span> Express.js, Angular, Web Scraping, Power BI, Git.</li>
+      </ul>
+    </div>
+  </div>
 
-<!-- Projet page -->
+  <!-- Item droite -->
+  <div class="mb-12 ">
+    <div class="w-[90%] bg-[#1f2937e7] shadow-lg rounded-lg p-6 mx-auto lg:hidden">
+      <h3 class="text-lg font-bold">Mathematics Teacher</h3>
+    <p class="text-sm text-gray-100">Smart School</p>
+    <p class="text-sm text-gray-400">Sep 2024 – Jun 2025 · 10 mos</p>
+    <ul class="mt-3 text-gray-100 list-disc list-inside space-y-1">
+      <li>Taught mathematics to middle and high school students at the Settat learning center.</li>
+      <li><span class="font-semibold">Tools:</span> Middle School and High School Curriculum.</li>
+    </ul>
+    </div>
+  </div>
+<!-- Exprennsse page pc -->
 
-<div id="Exprennsse" class="relative container mx-auto px-6">
+<div  class="relative container mx-auto px-6 hidden lg:block">
   <!-- Ligne centrale -->
   <div class="absolute w-1 bg-green-400 h-full left-1/2 transform -translate-x-1/2"></div>
 
@@ -112,12 +137,12 @@
     <div class="w-5/12"></div>
     <div class="z-20 flex items-center justify-center w-8 h-8 bg-black border-2 border-green-600 rounded-full shadow"></div>
     <div class="w-5/12 bg-[#1f2937e7] shadow-lg rounded-lg p-6">
-      <h3 class="text-lg font-bold">Software Engineer Intern</h3>
-      <p class="text-sm text-gray-100">Ecole Nationale des Sciences Appliquées de Fès</p>
-      <p class="text-sm text-gray-100">Jul 2023 – Aug 2023 · 2 mos</p>
+      <h3 class="text-lg font-bold">Software Engineer </h3>
+      <p class="text-sm text-gray-100">DesCustoms Marketing Agency</p>
+      <p class="text-sm text-gray-400">Jul 2025 – Aug 2025 · 2 mos</p>
       <ul class="mt-3 text-gray-200 list-disc list-inside space-y-1">
-        <li>Containerized a microservices application using Docker and Docker Compose.</li>
-        <li><span class="font-semibold">Tools:</span> Docker, Docker Compose, Git.</li>
+        <li>Developed a web application with integrated data analysis and visualization features.</li>
+        <li><span class="font-semibold">Tools:</span> Express.js, Angular, Web Scraping, Power BI, Git.</li>
       </ul>
     </div>
   </div>
@@ -127,23 +152,23 @@
     <div class="w-5/12"></div>
     <div class="z-20 flex items-center justify-center w-8 h-8 bg-black border-2 border-green-400 rounded-full shadow"></div>
     <div class="w-5/12 bg-[#1f2937e7] shadow-lg rounded-lg p-6">
-      <h3 class="text-lg font-bold">Odoo Developer Intern</h3>
-      <p class="text-sm text-gray-100">Ecole Nationale des Sciences Appliquées de Fès</p>
-      <p class="text-sm text-gray-400">Jul 2023 – Aug 2023 · 2 mos</p>
-      <ul class="mt-3 text-gray-100 list-disc list-inside space-y-1">
-        <li>Contributed to the design, development, and security of an Odoo module for managing staff certificates.</li>
-        <li><span class="font-semibold">Tools:</span> Odoo ERP, Python, Docker, PostgreSQL, XML, Git.</li>
-      </ul>
+      <h3 class="text-lg font-bold">Mathematics Teacher</h3>
+    <p class="text-sm text-gray-100">Smart School</p>
+    <p class="text-sm text-gray-400">Sep 2024 – Jun 2025 · 10 mos</p>
+    <ul class="mt-3 text-gray-100 list-disc list-inside space-y-1">
+      <li>Taught mathematics to middle and high school students at the Settat learning center.</li>
+      <li><span class="font-semibold">Tools:</span> Middle School and High School Curriculum.</li>
+    </ul>
     </div>
   </div>
 </div>
 <div>
-  <h3 class="text-5xl font-bold text-green-500 text-center mb-20 mt-32"><span class="border-b-2">Mes Skilse</span></h3>
+  <h3 id="skils" class="text-5xl font-bold text-green-500 text-center mb-20 mt-32"><span class="border-b-2">Mes Skilse</span></h3>
 </div>
 <!-- skile page -->
-<div id="skils" class="w-[90%] max-w-[1100px] my-[30px] mx-auto min-h[100vh]">
+<div  class="w-[90%] max-w-[1100px] my-[30px] mx-auto min-h[100vh]">
 <div class="grid gap-5 [grid-template-columns:repeat(auto-fill,minmax(280px,1fr))]">
-  <button class="border-green-500 px-6 py-2 rounded-[5px] bg-green-500/50 hover:bg-green-500/50" (click)="afficheDiv(div1,div2,div3,btn1,btn2,btn3)" #btn1>Web Development</button>
+  <button class="border-green-500 border-1 px-6 py-2 rounded-[5px] bg-green-500/50 hover:bg-green-500/50" (click)="afficheDiv(div1,div2,div3,btn1,btn2,btn3)" #btn1>Web Development</button>
   <button class="border-green-500 border-1 rounded-[5px] px-6 py-2 font-bold hover:bg-green-500/50" (click)="afficheDiv(div2,div1,div3,btn2,btn3,btn1)" #btn2>Data Bases</button>
   <button class="border-green-500 border-1 rounded-[5px] px-6 py-2 hover:bg-green-500/50" (click)="afficheDiv(div3,div1,div2,btn3,btn2,btn1)" #btn3>Languages / Intrests / Others</button>
 </div>
@@ -159,12 +184,12 @@
  <img src="logo/tailwind-css-2.svg" class="p-3 w-16 h-16" alt="auune chose">
  <img src="logo/html-1.svg" class="p-3 w-16 h-16" alt="auune chose">
 </div>
-<div class="mt-4 hidden grid gap-5 [grid-template-columns:repeat(auto-fill,minmax(150px,1fr))]  bg-[#1f2937e7] "  #div2>
+<div class="mt-4 hidden grid gap-5 [grid-template-columns:repeat(auto-fill,minmax(150px,1fr))] p-3  bg-[#1f2937e7] "  #div2>
  <img src="logo/mysql-3.svg" class="p-3 w-16 h-16" alt="auune chose">
  <img src="logo/mongodb-icon-1.svg" class="p-3 w-16 h-16" alt="auune chose">
  <img src="logo/sqlite.svg" class="p-3 w-16 h-16" alt="auune chose">
 </div>
-<div class="mt-4 hidden grid gap-5 [grid-template-columns:repeat(auto-fill,minmax(150px,1fr))]  bg-[#1f2937e7]  "  #div3>
+<div class="mt-4 hidden grid gap-5 [grid-template-columns:repeat(auto-fill,minmax(150px,1fr))] p-3  bg-[#1f2937e7]  "  #div3>
   <img src="logo/c-1.svg" class="p-3 w-16 h-16" alt="auune chose">
   <img src="logo/java-4.svg" class="p-3 w-16 h-16" alt="auune chose">
   <img src="logo/javascript-1.svg" class="p-3 w-16 h-16" alt="auune chose">
@@ -174,18 +199,18 @@
 </div>
 </div>
 <div>
-  <h3 class="text-5xl font-bold text-green-500 text-center mb-20 mt-32"><span class="border-b-2">Mes Contacts</span></h3>
+  <h3 id="Contact" class="text-5xl font-bold text-green-500 text-center mb-20 mt-32"><span class="border-b-2">Mes Contacts</span></h3>
 </div>
 <!-- contuct page -->
-<div id="Contact" class="w-90% max-w-[1100px] flex justify-around md:flex-wrap mx-auto gap-5">
-  <div class=" font-bold items-center my-5">
+<div  class="w-[90%] flex flex-col mx-auto gap-5">
+  <div class=" font-bold items-center my-5 ">
     <div>ipsum dolor sit amet consectetur, adipisicing elit.
      Dicta laborum ex unde quis laboriosam cum numquam praesentium, 
     explicabo, reprehenderit nulla architecto eum adipisci. Repellat 
     excepturi perspiciatis, consectetur unde omnis earum.
     </div>
   </div>
-  <div class="flex flex-col w-full gap-3">
+  <div class="flex flex-col w-full gap-3 ">
     <label for="name" class="text-gray-300"> Name:</label>
     <input name="name" type="text" placeholder="your name" class="border-2 px-4 py-2 rounded-[6px]">
     <label for="email">Email:</label>
@@ -196,6 +221,6 @@
   </div>
 </div>
   <footer class="bg-black mt-10">
-    <p class="  text-center font-bold p-3">© 2025 Ilyasse Bentaleb — Portfolio</p>
+    <p class="  text-center font-bold p-3">© 2025 Ilyasse BEN TALEB — Portfolio</p>
   </footer>
 <router-outlet />
